@@ -1,7 +1,8 @@
 {
-  "name": "chessground",
-  "version": "8.3.5",
-  "description": "lichess.org chess ui",
+  "name": "comet-chessground",
+  "version": "0.1.0",
+  "chessground-version": "8.3.5",
+  "description": "Adapted lichess.org chess ui",
   "type": "module",
   "module": "chessground.js",
   "typings": "chessground.d.ts",
@@ -33,7 +34,8 @@
     "/src/*.ts",
     "!/rollup.config.js"
   ],
-  "repository": "https://github.com/lichess-org/chessground",
+  "repository": "https://github.com/Jock-G/comet-chessground/issues",
+  "chessground-repository": "https://github.com/lichess-org/chessground",
   "keywords": [
     "chess",
     "lichess",
@@ -42,10 +44,12 @@
     "ui",
     "typescript"
   ],
-  "author": "Thibault Duplessis (https://github.com/ornicar)",
+  "author": "Jock-G (https://github.com/Jock-G)",
+  "chessground-author": "Thibault Duplessis (https://github.com/ornicar)",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/lichess-org/chessground/issues"
+    "url": "https://github.com/Jock-G/comet-chessground/issues",
+    "chessground-url": "https://github.com/lichess-org/chessground/issues"
   },
   "funding": "https://lichess.org/patron"
 }

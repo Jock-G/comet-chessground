@@ -87,6 +87,7 @@ export interface Config {
     brushes?: DrawBrushes;
     onChange?: (shapes: DrawShape[]) => void; // called after drawable shapes change
   };
+  automaticPlayingEnabled?: boolean; // Set true to allow e2e testing, set false to production builds
 }
 
 export function applyAnimation(state: HeadlessState, config: Config): void {
@@ -138,6 +139,7 @@ export function configure(state: HeadlessState, config: Config): void {
       )
     );
   }
+  state.automaticPlayingEnabled = config.automaticPlayingEnabled;
 }
 
 function deepMerge(base: any, extend: any): void {

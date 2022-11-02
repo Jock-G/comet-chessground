@@ -98,6 +98,7 @@ export interface HeadlessState {
   drawable: Drawable;
   exploding?: cg.Exploding;
   hold: cg.Timer;
+  automaticPlayingEnabled?: boolean; // Set true to allow e2e testing, set false to production builds
 }
 
 export interface State extends HeadlessState {
